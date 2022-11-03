@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>More Days Relax</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body class="backgroundRelax">
+        <a href="relax.html" class="goBackButton"></a>
+        <h1 class="heading">Relax</h1>
+        <h2 class="heading moreDays ">/more days/</h2>
+        <div class="btnContainer btnRelax">
+            <a onclick="openOutdoorFamily('backgroundRelax','moreDays.html')" class="btn">Accomodation</a>
+            <a onclick="openOutdoorFamily('backgroundRelax','moreDays.html')" class="btn">food & Drinks</a>
+            <a onclick="openOutdoorFamily('backgroundRelax','moreDays.html')" class="btn">beach</a>
+            <a onclick="openOutdoorFamily('backgroundRelax','moreDays.html')" class="btn">spa</a>
+            <a onclick="openOutdoorFamily('backgroundRelax','moreDays.html')" class="btn">forest</a>
+            <a onclick="openOutdoorFamily('backgroundRelax','moreDays.html')" class="btn">forest</a>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+
+<!---
+ $('<div/>',{
+        class: 'goBackButton',
+    }).appendTo('body');
+    $('<div/>',{
+        class: 'backgroundRelax',
+
+    }).appendTo('body');
+    $('body').append($(document.createElement('div')).prop({
+        type: 'div',
+        class:'firstSection',
+    }))
+    $('.firstSection').append(
+        $(document.createElement('button')).prop({
+            type: 'button',
+            innerHTML: 'Accomodation',
+            class: 'btn',
+            value: 'Super',
+            id: 'Accomodation',
+        })
+    ).append($(document.createElement('button')).prop({
+        type: 'button',
+        innerHTML: 'food & Drinks',
+        class: 'btn',
+        id: 'foodDrinks',
+    })).append($(document.createElement('button')).prop({
+        type: 'button',
+        innerHTML: 'beach',
+        class: 'btn',
+        id: 'beach',
+    })).append($(document.createElement('button')).prop({
+        type:'button',
+        innerHTML : 'spa',
+        class:'btn',
+    })).append($(document.createElement('button')).prop({
+        type:'button',
+        innerHTML: 'forest',
+        class: 'btn',
+    })).append($(document.createElement('h1')).prop({
+        type: 'text',
+        innerHTML: 'relax',
+        class: 'relaxHeadingMoreDays',
+    })).append($(document.createElement('h2')).prop({
+        innerHTML:'/more days/',
+        class: 'oneDayTrip',
+    }));
+    $('.goBackButton').click(function(){
+        window.location.pathname = '/relax.html';
+    })
+   -->
